@@ -7,6 +7,7 @@ namespace Test
         static void Main(string[] args)
         {
 
+
             Console.WriteLine("Введите А:");
             int a = Int32.Parse(Console.ReadLine());
 
@@ -15,6 +16,9 @@ namespace Test
 
             int c = a + b;
             Console.WriteLine("=" + c);
+
+            int d = a - b;
+            Console.WriteLine("=" + d);
 
         }
     }
